@@ -1,7 +1,7 @@
 {
-  "name": "preact-ssr",
-  "version": "1.0.0",
-  "description": "",
+  "name": "train-preact-ssr-webpack",
+  "version": "0.1.0",
+  "description": "Trains Preact with SSR enabled and with Webpack",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,14 +10,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Aravind Balla <https://aravindballa.com>",
+  "author": "Dhilip",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.1",
     "express": "^4.16.3",
     "preact": "^8.2.9",
-    "preact-render-to-string": "^3.7.0",
-    "preact-router": "^2.6.1"
+    "preact-render-to-string": "^3.7.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

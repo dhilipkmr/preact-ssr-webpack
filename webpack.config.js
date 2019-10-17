@@ -14,6 +14,10 @@ module.exports = {
       {
         test: /\.js$/,
         loader: "babel-loader",
+        exclude: /node_modules/,
+        query: {
+          plugins: ['transform-class-properties', "transform-es2015-arrow-functions"]
+        }
       }
     ]
   },

@@ -1,0 +1,117 @@
+input {
+	font-family: inherit;
+    font-size: inherit;
+    padding: 0.4em;
+    margin: 0 0 0.5em 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.white {
+	color: white;
+}
+.dblock {
+	display: block;
+}
+.textCenter {
+	text-align: center;
+}
+.fb {
+	font-weight: bold;
+}
+.blueBanner {
+	min-height: 100px;
+	background: #2276e3;
+	border-radius: 5px;
+}
+body {
+	margin: 0px;
+	padding: 8px;
+}
+.search {
+	background: #f26722;
+	color: #fff;
+	padding: 5px 25px;
+	border-radius: 5px;
+	margin: 6px 0px;
+	cursor: pointer;
+	height: 40px;
+	font-size: 16px;
+}
+.dateInput {
+	width: 200px;
+	height: 34px;
+	margin-top: 8px;
+	margin-right: 20px;
+}
+.header {
+	font-size: 24px;
+	padding: 10px 22px;
+}
+.error {
+	color: red;
+	background: white;
+	width: 150px;
+	border-radius: 3px;
+	padding: 2px 10px;
+	margin-left: 20px;
+}
+.pad25 {
+	padding: 25px;
+}
+.textOverflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+p {
+	height: 34px;
+	font-size: 14px;
+	line-height: 1;
+	margin-top: 8px;
+}
+.autoSuggest {
+	display: inline-block;
+	margin: 20px;
+}
+.autoSuggest li.suggestItem {
+	list-style-type: none;
+	padding: 10px;
+}
+.autoSuggest input.autoSuggestInput {
+	width: 300px;
+	margin-bottom: 0px;
+	height: 30px;
+}
+.autoSuggest input.autoSuggestInput:focus {
+	outline: none;
+}
+.autoSuggest ul.suggestWrap {
+	position: absolute;
+	background: #f7f7f7;
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #e4e4e4;
+	margin: 0;
+	width: 270px;
+}
+
+.posRel {
+	position: relative;
+}
+.posAbs {
+	position: absolute;
+	top: 0;
+}
+.curPoint {
+	cursor: pointer;
+}
+.fb {
+	font-weight: bold;
+}
+.textOverflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

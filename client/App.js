@@ -1,16 +1,12 @@
-import { h } from 'preact';
-// import Router from 'preact-router';
-import Home from './Home';
-import Detail from './Detail';
+import { h, Component } from 'preact';
+import Home from './Container/Home'
 
-const App = ({ url }) => (
-  <div>
-    <h2>Hello from Preact 3</h2>
-    {/* <Router url={url}>
-      <Home path="/" />
-      <Detail path="/detail" />
-    </Router> */}
-  </div>
-);
-
-export default App;
+export default class App extends Component {
+	render() {
+		return (
+			<div id="app">
+				<Home path="/" />
+			</div>
+		);
+	}
+}

@@ -1,13 +1,15 @@
 {
     "plugins": [
-        ["transform-react-jsx", { "pragma": "h" }]
+        ["transform-react-jsx", { "pragma": "h" }, "transform-es2015-arrow-functions"]
     ],
     "presets": [
-        ["env", {
-            "targets": {
-                "node": "current",
-                "browsers": ["last 2 versions"]
+        [   "env",
+            {
+                "targets": {
+                    "node": "current",
+                    "browsers": ["last 2 versions"]
+                }
             }
-        }]
+        ]
     ]
 }

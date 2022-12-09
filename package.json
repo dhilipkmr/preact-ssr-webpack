@@ -13,7 +13,7 @@
   "author": "Dhilip",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "preact": "10.0.0",
     "preact-compat": "^3.19.0",
     "preact-render-to-string": "^3.7.0"
